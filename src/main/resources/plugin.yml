@@ -1,0 +1,12 @@
+name: KOTH
+main: me.maximus1027.KOTH.Main
+version: 1.0
+
+commands:
+  kingofthehill:
+    aliases:
+      - koth
+      -
+  kothwand:
+    aliases:
+      - kw

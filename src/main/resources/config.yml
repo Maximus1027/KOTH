@@ -1,0 +1,53 @@
+firstlocation:
+  world:
+  x:
+  y:
+  z:
+
+secondlocation:
+  world:
+  x:
+  y:
+  z:
+
+winningscore: 2500
+
+
+#Chat Messages
+wongame-message: '&6%player% &ehas &a&lWON &ethe game of &4&lKOTH&e!'
+jointoggle-enable: '&7Joining has been &aENABLED&7.'
+jointoggle-disable: '&7Joining has been &cDISABLED&7.'
+pointsmax-message: '&7Maximum Points &nmust&7 be set! &cUsage: /koth setpoint <points>'
+newpointsmax-message: '&7The &cMaximum Points &7has been set to &e&n%newpoints%&7 &asuccessfully&7!'
+setpoint-usage: '&cUsage:/koth setpoint <points>'
+koth-stop: '&4&lKOTH&7 has been successfully &ccancelled&7!'
+twoplayers-error: '&cThere must be at least &n2 Players&c to begin a &4KOTH &cgame.'
+coordsmissing-error: '&cOne or more points have not been selected for &4KOTH&c! You can select these points using the &e/kothwand&c.'
+setcoords-ingame: '&4KOTH &ccoordinates &ncant&c be changed during a game!'
+join-message: '&4%player% &chas joined the game!'
+no-permissions: '&cInsufficient Permissions.'
+nojoin-message: '&cYou arent able to join a &4KOTH &cgame right now!'
+already-joined: '&cYou have already joined the game!'
+alreadystarted-join: '&cYou have already joined the game!'
+coord1-selected: '&aFirst region has been selected!'
+coord2-selected: '&aSecond region has been selected!'
+player-eliminated: '&e%player%&7 has been eliminated! &c%playersleft%&7 players remain!'
+anti-command: '&cYou cant send commands while you are in a &4&lKOTH&c game!'
+koth-gameannounce: '&c&lKOTH HAS STARTED!'
+koth-gamestart: '&aA game of &cKOTH &ahas began successfully.'
+koth-already-started: '&cKoth has already started! You can stop the game with /koth stop'
+
+#Titles
+koth-wongame-title: '&c&lKOTH'
+koth-wongame-subtitle: '&e%player% &chas won the game'
+
+#Help Page
+help-1: '&7&m-+-&r &c&lKOTH &f&lHELP &7&m-+-&r'
+help-2: ''
+help-3: '&e/kothwand &7&m-&r &fSelection tool to set the point regions for KOTH'
+help-4: '&e/koth setpoint <points> &7&m-&r Set point amount needed until won'
+help-5: '&e/koth jointoggle &7&m-&r &fCommand to toggle the &c/koth join &fcommand'
+help-6: '&e/koth start &7&m-&r &fCommand to &astart &fthe game &7&o(Selected points are required)'
+help-7: '&e/koth stop &7&m-&r &fCommand to &cstop &fthe game'
+help-8: '&e/koth join &7&m-&r &fCommand to join the game &7&o(No permissions required)'
+
